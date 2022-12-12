@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "IngressFunc": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 5229",
+      "launchBrowser": false
+    }
+  }
+}

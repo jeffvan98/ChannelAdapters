@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "EgressFunc__fullyQualifiedNamespace": "[SERVICE-BUS-NAMESPACE]",
+        "EgressFunc__TenantId": "[GUID]",
+        "EgressFunc__clientId": "[GUID]",
+        "EgressFunc__clientSecret": "[SECRET]",
+        "QueueName": "[NAME]"
+    }
+}

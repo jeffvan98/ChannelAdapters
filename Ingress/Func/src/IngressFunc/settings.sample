@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "IngressFunc__fullyQualifiedNamespace": "[SERVICE-BUS-NAMESPACE]",
+        "IngressFunc__TenantId": "[GUID]",
+        "IngressFunc__clientId": "[GUID]]",
+        "IngressFunc__clientSecret": "[SECRET]",
+        "QueueName": "[NAME]"
+    },
+    "Host": {
+        "LocalHttpPort": 5229
+    }
+}
