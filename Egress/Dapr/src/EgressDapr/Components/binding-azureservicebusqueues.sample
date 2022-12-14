@@ -1,7 +1,7 @@
 apiVersion: dapr.io/v1alpha
 kind: Component
 metadata:
-  name: ProcessMessage
+  name: processmessage
 spec:
   type: bindings.azure.servicebusqueues
   version: v1

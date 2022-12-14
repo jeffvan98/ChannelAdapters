@@ -11,7 +11,7 @@ public class ProcessMessageController : ControllerBase
         _logger = logger;
     }
 
-    [HttpPost("/ProcessMessage")]
+    [HttpPost("/processmessage")]
     public ActionResult ProcessMessage(JsonDocument input)
     {
         using (var stream = new MemoryStream())
