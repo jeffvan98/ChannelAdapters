@@ -41,7 +41,7 @@ resource containerAppEnvironment 'Microsoft.App/managedEnvironments@2022-06-01-p
       metadata: [
         {
           name: 'azureClientId'
-          value: managedIdentity.properties.principalId
+          value: managedIdentity.properties.clientId
         }
         {
           name: 'azureTenantId'
